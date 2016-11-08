@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.Cat
 	private CharSequence mTitle;
 	private CharSequence mDrawerTitle;
 	private List<CategoryModel> mCategoryList;
+	private int i;
 
 
 	public static Intent newIntent(Context context)
